@@ -3763,7 +3763,7 @@
         });
         feedbackSlider.mount();
     }
-    window["FLS"] = true;
+    window["FLS"] = false;
     isWebp();
     menuInit();
     spollers();

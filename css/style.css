@@ -718,9 +718,9 @@ body {
   font-size: 1.25rem;
   max-height: 1.25rem;
   color: var(--goldColor);
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
   -webkit-transition: -webkit-transform 0.5s var(--animationFunction);
   transition: -webkit-transform 0.5s var(--animationFunction);
   transition: transform 0.5s var(--animationFunction);
@@ -4107,9 +4107,9 @@ body {
   }
 
   .spollers-footer__title._spoller-active::after {
-    -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
   }
 
   .spollers-footer__point:not(:last-child) {
